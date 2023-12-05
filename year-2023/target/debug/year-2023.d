@@ -1,0 +1,1 @@
+/home/monico/Desktop/ocinom/advent-of-code/year-2023/target/debug/year-2023: /home/monico/Desktop/ocinom/advent-of-code/year-2023/src/day_1.rs /home/monico/Desktop/ocinom/advent-of-code/year-2023/src/main.rs
