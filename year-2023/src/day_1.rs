@@ -48,10 +48,10 @@ pub mod ex_1 {
 }
 
 pub mod ex_2 {
-    use std::{fs, fmt::Display};
+    use std::fs;
     use aho_corasick::AhoCorasick;
 
-    const nums: &[&str; 18] = &["1", "2", "3", "4", "5", "6", "7", "8", "9",
+    const NUMS: &[&str; 18] = &["1", "2", "3", "4", "5", "6", "7", "8", "9",
     "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
     pub fn text_to_digit(input: &str) -> u32 {
@@ -91,7 +91,7 @@ pub mod ex_2 {
     pub fn find_overlapping_matches(input: &str) -> Vec<(usize, usize)> {
         let ac = AhoCorasick::builder()
             .ascii_case_insensitive(true)
-            .build(nums)
+            .build(NUMS)
             .unwrap();
 
         let mut matches = vec![];
