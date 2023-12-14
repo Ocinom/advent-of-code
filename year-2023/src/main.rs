@@ -2,10 +2,13 @@ use crate::day_1::{ex_1, ex_2};
 use std::time::Instant;
 
 mod day_1;
+mod day_2;
 
 fn main() {
-    bench(d1e1);
-    bench(d1e2);
+    // bench(d1e1);
+    // bench(d1e2);
+
+    day_2::ex_1::execute("day_2.txt");
 }
 
 fn bench(test: fn()) {
