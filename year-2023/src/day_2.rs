@@ -2,7 +2,7 @@ pub mod ex_1 {
     use regex::Regex;
     use once_cell::sync::Lazy;
     use std::fs::read_to_string;
-    
+
     const MAX_RED: usize = 12;
     const MAX_GREEN: usize  = 13;
     const MAX_BLUE: usize = 14;
@@ -59,10 +59,6 @@ pub mod ex_2 {
     use regex::Regex;
     use once_cell::sync::Lazy;
     use std::fs::read_to_string;
-    
-    const MAX_RED: usize = 12;
-    const MAX_GREEN: usize  = 13;
-    const MAX_BLUE: usize = 14;
 
     const ITEMS_TALLY_RE: &str = r"(?:(\d+) (red|green|blue))";
 
