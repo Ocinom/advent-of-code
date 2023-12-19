@@ -12,6 +12,7 @@ fn main() {
     // bench(d2e1);
     // bench(d2e2);
     day_3::ex_1::execute("inputs/day_3.txt");
+    // day_3::ex_1::execute("inputs/test.txt");
 }
 
 fn bench(test: fn()) {
